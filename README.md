@@ -14,6 +14,7 @@
 - 最近dockerがスタンダードになる(らしい)ので勉強を兼ねて使ってみる
 - とりあえず[Docker for Mac](https://docs.docker.com/engine/installation/mac/)を入れてみる
 - Dockerfileのあるディレクトリに移動
+- `docker pull centos`でcentosのイメージをダウンロードする(無かったら必要)
 - `docker build -t {任意のイメージ名} .`でimageをビルド
 - `docker run -it --name {任意のコンテナ名} {作成したイメージ名} /bin/bash`でコンテナを作成してbashログイン
 - dockerの使い方は[よく使うdockerコマンド](http://qiita.com/noralife/items/18301143c20cc5172c56)とかで確認
