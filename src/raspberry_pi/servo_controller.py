@@ -22,7 +22,7 @@ def main(argv=sys.argv):
   move_deg = min_range + (max_range - min_range) * (input_degree - 0) / (180 - 0);
 
   # check value
-  if (move_deg <= 0 || max_range < move_deg):
+  if move_deg <= 0 or max_range < move_deg:
     exit(1);
 
   # rotate moter
